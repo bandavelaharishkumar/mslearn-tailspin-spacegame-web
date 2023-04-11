@@ -1,6 +1,6 @@
 trigger:
 - '*'
-
+minorVersion: '1'
 pool:
   vmImage: 'ubuntu-20.04'
   demands:
@@ -63,3 +63,4 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
+  

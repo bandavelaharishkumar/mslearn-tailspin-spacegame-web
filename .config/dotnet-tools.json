@@ -1,4 +1,4 @@
-{
+git remote add upstream https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web.git{
   "version": 1,
   "isRoot": true,
   "tools": {
